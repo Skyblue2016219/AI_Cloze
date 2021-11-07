@@ -10,7 +10,7 @@ window.title('Clozer')
 window.geometry('300x180')
 window.configure(background='white')
 
-def calculate_bmi_number():
+def calculate():
     text = text_entry.get()
     ans = ans_entry.get()
 
@@ -73,7 +73,7 @@ ans_entry.pack(side=tk.LEFT)
 result_label = tk.Label(window)
 result_label.pack()
 
-calculate_btn = tk.Button(window, text='解題', command=calculate_bmi_number)
+calculate_btn = tk.Button(window, text='解題', command=calculate)
 calculate_btn.pack()
 
 window.mainloop()
