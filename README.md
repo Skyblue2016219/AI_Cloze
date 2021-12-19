@@ -1,2 +1,2 @@
 # AI_Cloze
-A app for clozing ,which base on Google BERT.
+A app for clozing ,which based on Google BERT.
